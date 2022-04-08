@@ -32,8 +32,8 @@ The following Mermaid diagram illustrate the relationship between the various br
 
 ```mermaid
 graph TD;
-A[stdlib]-->|transform to standalone package|B;
-B[main] -->|transform error messages| C[production];
+A[stdlib]-->|generate standalone package|B;
+B[main] -->|productionize| C[production];
 C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
