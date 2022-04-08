@@ -36,9 +36,9 @@ jobs:
       - name: Create new `error` branch
         run: |
           git checkout -b error
-      - name: Replace `var format = require( '@stdlib/string-format' );` with `var format = require( '@stdlib/error-tools-fmtprodmsg' );` inside all *.js files
-        run: |
-          find . -name '*.js' -exec sed -i "s/var format = require( '@stdlib\/string-format' );/var format = require( '@stdlib\/error-tools-fmtprodmsg' );/g" {} \;
+      - name: Transform Error Messages
+        id: transform-error-messages
+        uses: stdlib-js/transform-errors-action@main
       - name: Change `@stdlib/string-format` to `@stdlib/error-tools-fmtprodmsg` in package.json if the former is a dependency, otherwise insert it as a dependency
         run: |
           if grep -q '"@stdlib/string-format"' package.json; then
