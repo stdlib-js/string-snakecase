@@ -22,7 +22,7 @@ limitations under the License.
 
 This repository contains the following branches:
 
--   `main`: standalone package repository (default) generated from the [stdlib monorepo][monorepo], where all development is taking place.
+-   `main`: default standalone package repository branch generated from the [stdlib monorepo][monorepo], where all development is taking place.
 -   `production`: [production build][production-url] of the package with error messages being rewritten to reduce bundle sizes and thus the number of bytes transmitted over the network.
 -   `esm`: [ES Module][esm-url] branch for use in a website via a `script` tag without installation and bundlers.
 -   `deno`: [Deno][deno-url] branch for use in Deno.
