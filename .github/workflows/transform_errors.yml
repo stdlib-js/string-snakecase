@@ -17,7 +17,7 @@
 #/
 
 # Workflow name:
-name: publish
+name: transform_errors
 
 # Workflow triggers:
 on:
@@ -38,7 +38,7 @@ jobs:
           git checkout -b error
       - name: Replace `var format = require( '@stdlib/string-format' );` with `var format = require( '@stdlib/error-tools-fmtprodmsg' );` inside all *.js files
         run: |
-          find . -name '*.js' -exec sed -i 's/var format = require( '@stdlib\/string-format' );/var format = require( '@stdlib\/error-tools-fmtprodmsg' );/g' {} \;
+          find . -name '*.js' -exec sed -i "s/var format = require( '@stdlib\/string-format' );/var format = require( '@stdlib\/error-tools-fmtprodmsg' );/g" {} \;
       - name: Configure git
         run: |
           git config --local user.email "noreply@stdlib.io"
