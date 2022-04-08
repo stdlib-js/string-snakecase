@@ -20,23 +20,23 @@ limitations under the License.
 
 # Branches
 
-This repository contains the following branches:
+This repository has the following branches:
 
--   `main`: default standalone package repository branch generated from the [stdlib monorepo][monorepo], where all development is taking place.
--   `production`: [production build][production-url] of the package with error messages being rewritten to reduce bundle sizes and thus the number of bytes transmitted over the network.
--   `esm`: [ES Module][esm-url] branch for use in a website via a `script` tag without installation and bundlers.
--   `deno`: [Deno][deno-url] branch for use in Deno.
--   `umd`: [UMD][umd-url] branch for use in Observable, or in dual browser/Node.js environments.
+-   **main**: default branch generated from the [stdlib project][stdlib], where all development takes place.
+-   **production**: [production build][production-url] of the package (e.g., reformatted error messages to reduce bundle sizes and thus the number of bytes transmitted over the network).
+-   **esm**: [ES Module][esm-url] branch for use via a `script` tag without installation and bundlers.
+-   **deno**: [Deno][deno-url] branch for use in Deno.
+-   **umd**: [UMD][umd-url] branch for use in Observable, or in dual browser/Node.js environments.
 
 The following Mermaid diagram illustrate the relationship between the various branches:
 
 ```mermaid
 graph TD;
-A[monorepo]-->|transform to standalone package|B;
+A[stdlib]-->|transform to standalone package|B;
 B[main] -->|transform error messages| C[production];
-C -->|bundle via Rollup| D[esm];
-C -->|bundle via Rollup| E[deno];
-C -->|bundle via Rollup| F[umd];
+C -->|bundle| D[esm];
+C -->|bundle| E[deno];
+C -->|bundle| F[umd];
 
 click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/snakecase"
 click B href "https://github.com/stdlib-js/string-snakecase/tree/main"
@@ -46,7 +46,7 @@ click E href "https://github.com/stdlib-js/string-snakecase/tree/deno"
 click F href "https://github.com/stdlib-js/string-snakecase/tree/umd"
 ```
 
-[monorepo]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/snakecase
+[stdlib]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/snakecase
 [production-url]: https://github.com/stdlib-js/string-snakecase/tree/production
 [deno-url]: https://github.com/stdlib-js/string-snakecase/tree/deno
 [umd-url]: https://github.com/stdlib-js/string-snakecase/tree/umd
