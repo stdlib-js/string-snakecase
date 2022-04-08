@@ -33,9 +33,9 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-      - name: Create new `error` branch
+      - name: Create new `production` branch
         run: |
-          git checkout -b error
+          git checkout -b production
       - name: Transform Error Messages
         id: transform-error-messages
         uses: stdlib-js/transform-errors-action@main
@@ -62,9 +62,9 @@ jobs:
       - name: Commit changes
         run: |
           git add -A
-          git commit -m "Auto-generated commit"
+          git commit -m "Transform error messages"
       - name: Push changes
         run: |
           SLUG=${{ github.repository }}
           echo "Pushing changes to $SLUG..."
-          git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$SLUG.git" error --force
+          git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$SLUG.git" production --force
