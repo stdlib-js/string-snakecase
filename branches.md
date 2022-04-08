@@ -28,7 +28,7 @@ This repository has the following branches:
 -   **deno**: [Deno][deno-url] branch for use in Deno.
 -   **umd**: [UMD][umd-url] branch for use in Observable, or in dual browser/Node.js environments.
 
-The following Mermaid diagram illustrate the relationship between the various branches:
+The following Mermaid diagram illustrates the relationships among the above branches:
 
 ```mermaid
 graph TD;
