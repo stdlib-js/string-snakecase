@@ -22,20 +22,20 @@ limitations under the License.
 
 This repository contains the following branches:
 
--   `main`: standalone package repository (default) generated from the [monorepo of the project][monorepo].
+-   `main`: standalone package repository (default) generated from the [stdlib monorepo][monorepo], where all development is taking place.
 -   `production`: production build of the package with error messages being rewritten to reduce bundle sizes and thus the number of bytes transmitted over the network.
 -   `esm`: [ES Module][esm-url] branch for use in a website via a `script` tag without installation and bundlers.
 -   `deno`: [Deno][deno-url] branch for use in Deno.
 -   `umd`: [UMD][umd-url] branch for use in Observable, or in dual browser/Node.js environments.
 
-The following Mermaid diagrams illustrate the dependencies between branches:
+The following Mermaid diagram illustrate the relationship between the various branches:
 
 ```mermaid
-graph LR;
-A[main] --> B[production];
-B --> C[esm];
-B --> D[deno];
-B --> E[umd];
+graph TD;
+A[main] -->|transform error messages| B[production];
+B -->|bundle via Rollup| C[esm];
+B -->|bundle via Rollup| D[deno];
+B -->|bundle via Rollup| E[umd];
 ```
 
 [monorepo]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/snakecase
