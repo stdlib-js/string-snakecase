@@ -23,7 +23,7 @@ limitations under the License.
 This repository has the following branches:
 
 -   **main**: default branch generated from the [stdlib project][stdlib], where all development takes place.
--   **production**: [production build][production-url] of the package (e.g., reformatted error messages to reduce bundle sizes and thus the number of bytes transmitted over the network).
+-   **production**: [production build][production-url] of the package (e.g., reformatted error messages to reduce bundle sizes and thus the number of bytes transmitted over a network).
 -   **esm**: [ES Module][esm-url] branch for use via a `script` tag without the need for installation and bundlers.
 -   **deno**: [Deno][deno-url] branch for use in Deno.
 -   **umd**: [UMD][umd-url] branch for use in Observable, or in dual browser/Node.js environments.
