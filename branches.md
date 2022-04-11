@@ -46,7 +46,7 @@ click E href "https://github.com/stdlib-js/string-snakecase/tree/deno"
 click F href "https://github.com/stdlib-js/string-snakecase/tree/umd"
 ```
 
-[stdlib-url]: https://github.com/stdlib-js/string-snakecase
+[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/snakecase
 [production-url]: https://github.com/stdlib-js/string-snakecase/tree/production
 [deno-url]: https://github.com/stdlib-js/string-snakecase/tree/deno
 [umd-url]: https://github.com/stdlib-js/string-snakecase/tree/umd
