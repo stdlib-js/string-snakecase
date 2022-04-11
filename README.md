@@ -279,10 +279,10 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[branches-url]: https://github.com/stdlib-js/string-snakecase/blob/main/branches.md
 [deno-url]: https://github.com/stdlib-js/string-snakecase/tree/deno
 [umd-url]: https://github.com/stdlib-js/string-snakecase/tree/umd
 [esm-url]: https://github.com/stdlib-js/string-snakecase/tree/esm
+[branches-url]: https://github.com/stdlib-js/string-snakecase/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-snakecase/main/LICENSE
 
