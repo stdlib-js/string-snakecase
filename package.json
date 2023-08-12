@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-snakecase",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert a string to snake case.",
   "license": "Apache-2.0",
   "author": {
