@@ -162,16 +162,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-snakecase-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-snakecase-cli
 
-[test-image]: https://github.com/stdlib-js/string-snakecase@v0.0.3/actions/workflows/test.yml/badge.svg?branch=v0.0.3
-[test-url]: https://github.com/stdlib-js/string-snakecase@v0.0.3/actions/workflows/test.yml?query=branch:v0.0.3
+[test-image]: https://github.com/stdlib-js/string-snakecase/actions/workflows/test.yml/badge.svg?branch=v0.0.3
+[test-url]: https://github.com/stdlib-js/string-snakecase/actions/workflows/test.yml?query=branch:v0.0.3
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-snakecase@v0.0.3/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/string-snakecase@v0.0.3?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-snakecase/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/string-snakecase?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/string-snakecase@v0.0.3.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/string-snakecase@v0.0.3/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/string-snakecase.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/string-snakecase/main
 
 -->
 
@@ -182,19 +182,19 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/string-snakecase@v0.0.3#cli
-[cli-url]: https://github.com/stdlib-js/string-snakecase@v0.0.3/tree/cli
-[@stdlib/string-snakecase]: https://github.com/stdlib-js/string-snakecase@v0.0.3/tree/main
+[cli-section]: https://github.com/stdlib-js/string-snakecase#cli
+[cli-url]: https://github.com/stdlib-js/string-snakecase/tree/cli
+[@stdlib/string-snakecase]: https://github.com/stdlib-js/string-snakecase/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/string-snakecase@v0.0.3/tree/deno
-[umd-url]: https://github.com/stdlib-js/string-snakecase@v0.0.3/tree/umd
-[esm-url]: https://github.com/stdlib-js/string-snakecase@v0.0.3/tree/esm
-[branches-url]: https://github.com/stdlib-js/string-snakecase@v0.0.3/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/string-snakecase/tree/deno
+[umd-url]: https://github.com/stdlib-js/string-snakecase/tree/umd
+[esm-url]: https://github.com/stdlib-js/string-snakecase/tree/esm
+[branches-url]: https://github.com/stdlib-js/string-snakecase/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-snakecase@v0.0.3/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-snakecase/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
