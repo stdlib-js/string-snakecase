@@ -33,6 +33,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-snakecase/tags). For example,
+
+```javascript
 import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@v0.0.5-deno/mod.js';
 ```
 
@@ -62,7 +67,7 @@ str = snakecase( 'Hello World!' );
 ## Examples
 
 ```javascript
-import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@v0.0.5-deno/mod.js';
+import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@deno/mod.js';
 
 var str = 'foo bar baz';
 var out = snakecase( str );
