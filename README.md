@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@deno/mod.js';
+import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@v0.0.4-deno/mod.js';
 ```
 
 #### snakecase( str )
@@ -62,7 +62,7 @@ str = snakecase( 'Hello World!' );
 ## Examples
 
 ```javascript
-import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@deno/mod.js';
+import snakecase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-snakecase@v0.0.4-deno/mod.js';
 
 var str = 'foo bar baz';
 var out = snakecase( str );
