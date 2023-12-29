@@ -224,6 +224,7 @@ foo_bar
 -   <span class="package-name">[`@stdlib/string-camelcase`][@stdlib/string/camelcase]</span><span class="delimiter">: </span><span class="description">convert a string to camel case.</span>
 -   <span class="package-name">[`@stdlib/string-constantcase`][@stdlib/string/constantcase]</span><span class="delimiter">: </span><span class="description">convert a string to constant case.</span>
 -   <span class="package-name">[`@stdlib/string-kebabcase`][@stdlib/string/kebabcase]</span><span class="delimiter">: </span><span class="description">convert a string to kebab case.</span>
+-   <span class="package-name">[`@stdlib/string-pascalcase`][@stdlib/string/pascalcase]</span><span class="delimiter">: </span><span class="description">convert a string to Pascal case.</span>
 
 </section>
 
@@ -313,6 +314,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/string/constantcase]: https://github.com/stdlib-js/string-constantcase
 
 [@stdlib/string/kebabcase]: https://github.com/stdlib-js/string-kebabcase
+
+[@stdlib/string/pascalcase]: https://github.com/stdlib-js/string-pascalcase
 
 <!-- </related-links> -->
 
